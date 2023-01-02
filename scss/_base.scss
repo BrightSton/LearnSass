@@ -1,0 +1,11 @@
+// $가 붙어 있는 것이 sass 변수처리 방법이다.
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+$bg-color: gold;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  line-height: 1.5;
+  background-color: $bg-color;
+}
